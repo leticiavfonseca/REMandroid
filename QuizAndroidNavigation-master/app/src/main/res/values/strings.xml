@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="quiz">Android Quiz (%1$d/%2$d)</string>
+    <string name="nome_perfil">Nome:</string>
+    <string name="idade_perfil">Idade:</string>
+    <string name="sexo_perfil">Sexo:</string>
+    <string name="telefone_perfil">Telefone:</string>
+    <string name="email_perfil">E-mail:</string>
+    <string name="submit_button">Submit</string>
+    <string name="try_again">Try again</string>
+    <string name="share">Share</string>
+    <string name="rules">Rules</string>
+    <string name="about">About</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
