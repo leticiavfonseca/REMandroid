@@ -90,19 +90,16 @@
 
             <ImageView
                 android:id="@+id/questionImage"
-                android:layout_width="0dp"
-                android:layout_height="@dimen/image_header_height"
+                android:layout_width="323dp"
+                android:layout_height="147dp"
                 android:layout_marginStart="@dimen/horizontal_margin"
-                android:layout_marginTop="@dimen/vertical_margin"
+                android:layout_marginTop="28dp"
                 android:layout_marginEnd="@dimen/horizontal_margin"
-                android:layout_marginBottom="@dimen/vertical_margin"
                 android:contentDescription="TODO"
                 android:scaleType="fitCenter"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.0"
                 app:layout_constraintVertical_chainStyle="packed"
                 app:srcCompat="@mipmap/ic_rem_foreground" />
 
@@ -111,11 +108,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/question_horizontal_margin"
-                android:layout_marginTop="140dp"
+                android:layout_marginTop="440dp"
                 android:layout_marginEnd="@dimen/question_horizontal_margin"
-                android:text="@string/submit_button"
+                android:text="Add"
                 android:textSize="@dimen/button_text_size"
+                android:textColor="#ffffff"
+                android:background="#FA0000"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.984"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/questionImage" />
 
