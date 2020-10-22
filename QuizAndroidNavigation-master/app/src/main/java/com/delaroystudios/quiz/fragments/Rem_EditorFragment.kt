@@ -11,17 +11,17 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.findNavController
 import com.delaroystudios.quiz.R
-import com.delaroystudios.quiz.databinding.FragmentGameBinding
+import com.delaroystudios.quiz.databinding.FragmentRemEditorBinding
 import com.delaroystudios.quiz.databinding.FragmentGameOverBinding
 import androidx.navigation.Navigation
 
-class GameFragment : Fragment() {
+class Rem_EditorFragment : Fragment() {
         override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                                   savedInstanceState: Bundle?): View? {
            //  Inflate the layout for this fragment
-            val binding = DataBindingUtil.inflate<FragmentGameBinding>(
-                inflater, R.layout.fragment_game, container, false)
-                binding.submitB.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.action_gameFragment_to_aboutFragment))
+            val binding = DataBindingUtil.inflate<FragmentRemEditorBinding>(
+                inflater, R.layout.fragment_rem_editor, container, false)
+                binding.submitB.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.action_rem_editorFragment_to_remFragment))
 
             return binding.root
         }}

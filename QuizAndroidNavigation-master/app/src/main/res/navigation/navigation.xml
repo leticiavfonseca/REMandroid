@@ -8,42 +8,31 @@
     <fragment
         android:id="@+id/remFragment"
         android:name="com.delaroystudios.quiz.fragments.RemFragment"
-        android:label="RemFragment" >
+        android:label="Remédios" >
         <action
-            android:id="@+id/action_remFragment_to_gameFragment"
-            app:destination="@id/gameFragment" />
+            android:id="@+id/action_remFragment_to_rem_editorFragment"
+            app:destination="@id/rem_editorFragment" />
     </fragment>
     <fragment
-        android:id="@+id/gameFragment"
-        android:name="com.delaroystudios.quiz.fragments.GameFragment"
-        android:label="GameFragment" >
+        android:id="@+id/rem_editorFragment"
+        android:name="com.delaroystudios.quiz.fragments.Rem_EditorFragment"
+        android:label="Adicione Remédios" >
         <action
-            android:id="@+id/action_gameFragment_to_aboutFragment"
-            app:destination="@id/aboutFragment" />
+            android:id="@+id/action_rem_editorFragment_to_remFragment"
+            app:destination="@id/remFragment" />
     </fragment>
     <fragment
-        android:id="@+id/gameWonFragment"
-        android:name="com.delaroystudios.quiz.fragments.GameWonFragment"
-        android:label="GameWonFragment" >
-        <action
-            android:id="@+id/action_gameWonFragment_to_gameFragment"
-            app:destination="@id/gameFragment"
-            app:popUpTo="@id/titleFragment" />
-        <argument
-            android:name="numQuestions"
-            app:argType="integer" />
-        <argument
-            android:name="numCorrect"
-            app:argType="integer" />
+        android:id="@+id/searchFragment"
+        android:name="com.delaroystudios.quiz.fragments.SearchFragment"
+        android:label="Pesquisa" >
+        
+
     </fragment>
     <fragment
         android:id="@+id/gameOverFragment2"
         android:name="com.delaroystudios.quiz.fragments.GameOverFragment"
         android:label="GameOverFragment" >
-        <action
-            android:id="@+id/action_gameOverFragment2_to_gameFragment"
-            app:destination="@id/gameFragment"
-            app:popUpTo="@id/titleFragment" />
+
     </fragment>
     <fragment
         android:id="@+id/aboutFragment"
@@ -51,7 +40,7 @@
         android:label="@string/about"
         tools:layout="@layout/fragment_about" />
     <fragment
-        android:id="@+id/rulesFragment"
+        android:id="@+id/contactFragment"
         android:name="com.delaroystudios.quiz.fragments.ContactFragment"
         android:label="fragment_rules"
         tools:layout="@layout/fragment_contact" />

@@ -15,7 +15,7 @@ class RemFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         val binding = DataBindingUtil.inflate<FragmentRemBinding>(inflater, R.layout.fragment_rem, container, false)
-        binding.playButton.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.action_remFragment_to_gameFragment))
+        binding.playButton.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.action_remFragment_to_rem_editorFragment))
 
         setHasOptionsMenu(true)
         return binding.root

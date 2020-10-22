@@ -8,7 +8,7 @@
 
         <variable
             name="game"
-            type="com.delaroystudios.quiz.fragments.GameFragment" />
+            type="com.delaroystudios.quiz.fragments.Rem_EditorFragment" />
     </data>
 
     <ScrollView
@@ -121,9 +121,9 @@
 
             <TextView
                 android:id="@+id/textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="add remedio"
+                android:layout_width="342dp"
+                android:layout_height="119dp"
+                android:text="Página para a Adição de Remédios com botão ADD"
                 app:layout_constraintBottom_toTopOf="@+id/submitB"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
