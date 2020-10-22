@@ -8,14 +8,14 @@ import androidx.navigation.Navigation
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
 import com.delaroystudios.quiz.R
-import com.delaroystudios.quiz.databinding.FragmentTitleBinding
+import com.delaroystudios.quiz.databinding.FragmentRemBinding
 
-class TitleFragment : Fragment() {
+class RemFragment : Fragment() {
     //Inflating and Returning the View with DataBindingUtil
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
-        val binding = DataBindingUtil.inflate<FragmentTitleBinding>(inflater, R.layout.fragment_title, container, false)
-        binding.playButton.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.action_titleFragment_to_gameFragment))
+        val binding = DataBindingUtil.inflate<FragmentRemBinding>(inflater, R.layout.fragment_rem, container, false)
+        binding.playButton.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.action_remFragment_to_gameFragment))
 
         setHasOptionsMenu(true)
         return binding.root

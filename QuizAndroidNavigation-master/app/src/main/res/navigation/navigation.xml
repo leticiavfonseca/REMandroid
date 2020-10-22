@@ -3,14 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation"
-    app:startDestination="@id/titleFragment">
+    app:startDestination="@id/remFragment">
 
     <fragment
-        android:id="@+id/titleFragment"
-        android:name="com.delaroystudios.quiz.fragments.TitleFragment"
-        android:label="TitleFragment" >
+        android:id="@+id/remFragment"
+        android:name="com.delaroystudios.quiz.fragments.RemFragment"
+        android:label="RemFragment" >
         <action
-            android:id="@+id/action_titleFragment_to_gameFragment"
+            android:id="@+id/action_remFragment_to_gameFragment"
             app:destination="@id/gameFragment" />
     </fragment>
     <fragment
@@ -52,7 +52,7 @@
         tools:layout="@layout/fragment_about" />
     <fragment
         android:id="@+id/rulesFragment"
-        android:name="com.delaroystudios.quiz.fragments.RulesFragment"
+        android:name="com.delaroystudios.quiz.fragments.ContactFragment"
         android:label="fragment_rules"
-        tools:layout="@layout/fragment_rules" />
+        tools:layout="@layout/fragment_contact" />
 </navigation>

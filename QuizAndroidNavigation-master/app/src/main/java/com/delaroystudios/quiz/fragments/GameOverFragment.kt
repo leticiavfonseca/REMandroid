@@ -10,7 +10,7 @@ import androidx.navigation.Navigation
 import androidx.navigation.fragment.findNavController
 import com.delaroystudios.quiz.R
 import com.delaroystudios.quiz.databinding.FragmentGameOverBinding
-import com.delaroystudios.quiz.databinding.FragmentTitleBinding
+import com.delaroystudios.quiz.databinding.FragmentRemBinding
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
 
