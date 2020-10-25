@@ -11,10 +11,9 @@
             type="com.delaroystudios.quiz.fragments.Rem_EditorFragment" />
     </data>
 
-    <ScrollView
-        android:layout_width="match_parent"
+       <!-- android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:fillViewport="true">
+        android:fillViewport="true">-->
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/frameLayout"
@@ -129,5 +128,4 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/questionImage" />
         </androidx.constraintlayout.widget.ConstraintLayout>
-    </ScrollView>
 </layout>
