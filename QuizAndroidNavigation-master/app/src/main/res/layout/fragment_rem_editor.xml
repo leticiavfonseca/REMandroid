@@ -11,14 +11,14 @@
             type="com.delaroystudios.quiz.fragments.Rem_EditorFragment" />
     </data>
 
-       <!-- android:layout_width="match_parent"
+        <!--android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fillViewport="true">-->
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/frameLayout"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent">
 
             <!--    <TextView
                 android:id="@+id/questionText"
@@ -89,8 +89,8 @@
 
             <ImageView
                 android:id="@+id/questionImage"
-                android:layout_width="323dp"
-                android:layout_height="147dp"
+                android:layout_width="376dp"
+                android:layout_height="94dp"
                 android:layout_marginStart="@dimen/horizontal_margin"
                 android:layout_marginTop="28dp"
                 android:layout_marginEnd="@dimen/horizontal_margin"
@@ -107,25 +107,54 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/question_horizontal_margin"
-                android:layout_marginTop="440dp"
                 android:layout_marginEnd="@dimen/question_horizontal_margin"
-                android:text="Add"
-                android:textSize="@dimen/button_text_size"
-                android:textColor="#ffffff"
                 android:background="#FA0000"
+                android:text="Salvar"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/button_text_size"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.984"
+                app:layout_constraintHorizontal_bias="0.992"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.92" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName4"
+                android:layout_width="339dp"
+                android:layout_height="78dp"
+                android:layout_marginTop="100dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Insira o nome dos remédios..."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
+
+            <EditText
+                android:id="@+id/editTextTime"
+                android:layout_width="339dp"
+                android:layout_height="66dp"
+                android:layout_marginTop="39dp"
+                android:autoText="false"
+                android:ems="10"
+                android:inputType="time"
+                android:text="Insira o horário..."
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/questionImage" />
 
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="342dp"
-                android:layout_height="119dp"
-                android:text="Página para a Adição de Remédios com botão ADD"
-                app:layout_constraintBottom_toTopOf="@+id/submitB"
+            <EditText
+                android:id="@+id/editTextNumber"
+                android:layout_width="341dp"
+                android:layout_height="66dp"
+                android:layout_marginTop="80dp"
+                android:ems="10"
+                android:inputType="number"
+                android:text="Insira a posição na caixa..."
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.528"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/questionImage" />
+                app:layout_constraintTop_toBottomOf="@+id/editTextTime" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

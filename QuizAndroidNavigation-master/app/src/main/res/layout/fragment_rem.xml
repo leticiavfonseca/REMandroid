@@ -35,7 +35,7 @@
             android:background="@color/colorAccent"
             android:paddingStart="@dimen/button_padding"
             android:paddingEnd="@dimen/button_padding"
-            android:text="Play"
+            android:text="Adicionar"
             android:textColor="#ffffff"
             android:textSize="@dimen/button_text_size"
             android:textStyle="bold"
@@ -48,17 +48,56 @@
 
         <ImageView
             android:id="@+id/titleImage"
-            android:layout_width="0dp"
-            android:layout_height="@dimen/image_header_height"
+            android:layout_width="392dp"
+            android:layout_height="143dp"
             android:layout_marginStart="@dimen/horizontal_margin"
             android:layout_marginEnd="@dimen/horizontal_margin"
             android:scaleType="fitCenter"
             app:layout_constraintBottom_toTopOf="@+id/playButton"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/quiz_b" />
+            app:layout_constraintVertical_bias="0.004"
+            app:srcCompat="@mipmap/ic_rem_foreground" />
+
+        <TextView
+            android:id="@+id/editTextTextPersonName4"
+            android:layout_width="339dp"
+            android:layout_height="78dp"
+            android:layout_marginTop="100dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Insira o nome dos remédios..."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
+
+        <TextView
+            android:id="@+id/editTextTime"
+            android:layout_width="339dp"
+            android:layout_height="66dp"
+            android:autoText="false"
+            android:ems="10"
+            android:inputType="time"
+            android:text="Insira o horário..."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.472"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleImage" />
+
+        <TextView
+            android:id="@+id/editTextNumber"
+            android:layout_width="341dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="80dp"
+            android:ems="10"
+            android:inputType="number"
+            android:text="Insira a posição na caixa..."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.528"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTime" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
