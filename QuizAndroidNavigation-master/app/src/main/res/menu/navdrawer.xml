@@ -16,7 +16,7 @@
         android:icon="?android:attr/actionModeWebSearchDrawable"
         android:title="Pesquisa" />
     <item
-        android:id="@+id/aboutFragment"
+        android:id="@+id/editAboutFragment"
         android:icon="@drawable/about"
         android:title="Perfil" />
 </menu>

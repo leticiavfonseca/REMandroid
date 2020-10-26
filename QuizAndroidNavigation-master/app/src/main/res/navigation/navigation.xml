@@ -52,5 +52,9 @@
         android:id="@+id/editAboutFragment"
         android:name="com.delaroystudios.quiz.EditAboutFragment"
         android:label="fragment_edit_about"
-        tools:layout="@layout/fragment_edit_about" />
+        tools:layout="@layout/fragment_edit_about" >
+        <action
+            android:id="@+id/action_editAboutFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+    </fragment>
 </navigation>

@@ -126,7 +126,7 @@
                 android:layout_marginTop="100dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Insira o nome dos remédios..."
+                android:hint="Insira o nome dos remédios..."
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
@@ -139,7 +139,7 @@
                 android:autoText="false"
                 android:ems="10"
                 android:inputType="time"
-                android:text="Insira o horário..."
+                android:hint="Insira o horário..."
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/questionImage" />
@@ -151,7 +151,7 @@
                 android:layout_marginTop="80dp"
                 android:ems="10"
                 android:inputType="number"
-                android:text="Insira a posição na caixa..."
+                android:hint="Insira a posição na caixa..."
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.528"
                 app:layout_constraintStart_toStartOf="parent"

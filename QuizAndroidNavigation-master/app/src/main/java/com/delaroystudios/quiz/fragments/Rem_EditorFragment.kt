@@ -24,7 +24,8 @@ class Rem_EditorFragment : Fragment() {
                 binding.submitB.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.action_rem_editorFragment_to_remFragment))
 
             return binding.root
-        }}
+        }
+}
 
 
 //override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
